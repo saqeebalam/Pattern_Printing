@@ -1,0 +1,20 @@
+
+/*Question Print Solid Pattern like this
+*****
+*****
+*****
+*****
+***** */
+package SolidPattern;
+public class SolidPattern_Rec {
+  public static void main(String[] args) {
+	for(int x=1;x<=4;x++) {
+		for(int y=1;y<=5;y++) {
+			System.out.print("*");
+		}
+		System.out.println();
+	}
+}
+}
+/*Give Equal numper in inner loop and outer loop for square shape printing
+if number is diffrent than pattern printing is in rectangle*/
